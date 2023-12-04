@@ -1,0 +1,81 @@
+/* Apply a grey background and green text color to the body */
+body {
+    background-color: #f2f2f2;
+    color: #008000;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+  }
+  
+  /* Style the heading */
+  h3#heading {
+    margin-top: 40px;
+    font-size: 32px;
+  }
+  
+  /* Center the form in the middle of the page */
+  form {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Apply styling to the form elements */
+  label {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  input[type="file"] {
+    margin-top: 10px;
+  }
+  
+  input[type="button"] {
+    background-color: #008000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #006600;
+  }
+  
+  div[id^="valid"],
+  div[id^="invalid"] {
+    display: inline-block;
+    max-width: 45%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  div[id^="valid"] {
+    color: #008000;
+  }
+  
+  div[id^="invalid"] {
+    color: #ff0000;
+  }
+  
